@@ -5,6 +5,7 @@ body {
 
 .mainHeader {
 	color: #00487c;
+	margin-bottom: 40px;
 	
 }
 
@@ -12,10 +13,11 @@ body {
 		color: #1460aa;
 }
 
-
 .paragraph {
-    color: darkblue;
+	color: rgb(3, 3, 3);
+	padding: 16px;
 }
+
 .image {
 	width: 190px;
 	float: right; 
@@ -31,3 +33,13 @@ body {
 	color: #1A936F;
 }
 
+.about {
+	
+}
+.main {
+	width: 100%;
+	max-width: 700px;
+	min-width: 500px;
+	overflow: scroll;
+	margin: 32px auto;
+}
