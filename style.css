@@ -1,0 +1,25 @@
+body {
+    background: #fefefe;
+}
+
+.mainHeader {
+    color: tomato;
+}
+
+.sectionHeader {
+		color: #1460aa;
+		font-size: 64px;
+}
+.diaryHeader {
+	color: #6c1285;
+	font-size: 63px;
+}
+
+.paragraph {
+    color: darkblue;
+}
+.image {
+	width: 190px;
+	float: right; 
+	margin-left: 20px;
+}
