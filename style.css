@@ -1,19 +1,17 @@
 body {
-    background: salmon;
+	background: #fefefe;
+	color: #333;
 }
 
 .mainHeader {
-    color: tomato;
+	color: #00487c;
+	
 }
 
-.sectionHeader {
+.sectionHeader, .diaryHeader {
 		color: #1460aa;
-		font-size: 64px;
 }
-.diaryHeader {
-	color: #6c1285;
-	font-size: 63px;
-}
+
 
 .paragraph {
     color: darkblue;
@@ -23,3 +21,13 @@ body {
 	float: right; 
 	margin-left: 20px;
 }
+
+.thirdHeader {
+	color: #0496FF;
+	text-decoration: 
+}
+
+.link {
+	color: #1A936F;
+}
+
