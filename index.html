@@ -10,35 +10,40 @@
 </head>
 
 <body>
-	<header>
-		<a class="link" href="index.html">Strona główna</a>
-		<a class="link" href="podstrona.html">podstrona</a>
+	<header class="navigation">
+		<a class="navigation__link" href="index.html">Strona główna</a>
+		<a class="navigation__link" href="podstrona.html">podstrona</a>
 	</header>	
-	<main class="main">
+	<main id="top" class="main">
 			<header>
-			<h1 class="mainHeader">
+			<h1 class="main__header">
 					Mateusz Leszkiewicz - Strona domowa - PozdroGitHub
 			</h1>
 			</header>
         <section class="about">
-            <h2 class="sectionHeader">
+            <div class="about__box">Co ten frontend?</div>
+        
+            <h2 class="about__header">
                 Kim jestem?
             </h2>
-            <p class="paragraph">
+                
+            <p class="about__paragraph">
+                <img src="images/profilowe.jpg " alt="zdjęcie profilowe" class="about__image"/>
                 Nazwyam się Mateusz. Jestem ciekawym świata człowiekiem, doświadczonym w sprzedaży i pasjonującym się psychologią. Lubię pomagać ludziom i rozwiązywać problemy komputerowe.
-						</p>
-			<a class="link" href="#pamiętniczek">Przejdź do Pamiętniczka</a>
+			</p>
+			<a class="about__link" href="#pamiętniczek">Przejdź do Pamiętniczka</a>
+            <p class="about__paragraph about__paragraph--color">Testuję modyfikator.</p>
         </section>
-        <section id="pamiętniczek">
-            <h2 class="diaryHeader">
+        <section id="pamiętniczek" class="diary">
+            <h2 class="diary__header">
                 Pamiętniczek
             </h2>
             <section>
-                <h3 class="thirdHeader">
+                <h3 class="diary__thirdHeader">
                     28.05.2019r. WTF W02 przerobiony
                 </h3>
-                <p class="paragraph">
-                    <img src="images/zagadka W02.jpg" alt="Screenshot z rozwiązanej zagadki CSS" class="image"/> Dzisiaj odświeżyłem swoją wiedzę z zakresu budowy podstawowoych elementów strony web. tzn.</br>
+                <p class="diary__paragraph">
+                    <img src="images/zagadka W02.jpg" alt="Screenshot z rozwiązanej zagadki CSS" class="diary__image"/> Dzisiaj odświeżyłem swoją wiedzę z zakresu budowy podstawowoych elementów strony web. tzn.</br>
                     <li>Strona ma warstwy (text, html, css, js).</li>
                     <li>Przypomniałem sobie że są devtoolsy i dowiedziałem się jakie mają podstawowe właściwości.</li>
                     <li>Poznałem podstawowe zasady tworzenia stylów CSS.</li>
@@ -47,13 +52,30 @@
                 </p>
             </section>
             <section>
-                <h3 class="thirdHeader">
+                 <h3 class="diary__thirdHeader">
                     Jak stworzyć prawidłowego HTML-a?
                 </h3>
-                <p class="paragraph">
-										Moze być, jak nie wiesz co robić.</p></br>
-										<a class="link" href="podstrona.html">Przejdź do artykułu o pisaniu HTML-a.</a>
+                <p class="diary__paragraph">
+					Moze być, jak nie wiesz co robić.</p></br>
+					<a class="diary__link" href="podstrona.html">Przejdź do artykułu o pisaniu HTML-a.</a>
                 </p>
+            </section>
+            <section>
+                     <h3 class="diary__thirdHeader">
+                        Jak stworzyć prawidłowego HTML-a?
+                    </h3>
+                    <p class="diary__paragraph">
+                        Moze być, jak nie wiesz co robić.</p></br>
+                        <a class="diary__link" href="podstrona.html">Przejdź do artykułu o pisaniu HTML-a.</a>
+                    </p>
+                </section>
+            <section>
+                     <h3 class="diary__thirdHeader">
+                        Jak stworzyć prawidłowego HTML-a?
+                    </h3>
+                    <p class="diary__paragraph">
+                        Moze być, jak nie wiesz co robić.</p></br>
+                    <a class="diary__link" href="podstrona.html">Przejdź do artykułu o pisaniu HTML-a.</a>                        </p>
             </section>
 
         </section>
@@ -62,7 +84,8 @@
 
 		<footer>
 				Strona domowa Mateusz Leszkiewicza. Wszystkie treścisą efektem uczestnictwa w kursie WTF - co ten frontend?
-		</footer>
+        </footer>
+        <a href="#top" class="footer__top">Na górę</a>
 		<script src="main.js"></script>
 </body>
 
