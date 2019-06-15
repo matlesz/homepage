@@ -7,35 +7,49 @@
     <title>Document</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <header>
-        <a class="link" href="index.html">Strona główna</a>
-        <a class="link" href="podstrona.html">podstrona</a>
+    <header class="navigation">
+        <a class="navigation__link" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="podstrona.html">podstrona</a>
 		</header>	
 		
-    <main class="main">
-			<article>
-				<header class="mainHeader">
-				<h1>Jak stworzyć prawidłowego HTMLa?</h1>
-				</header>
-				<p class="paragraph">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit asperiores porro voluptates. Iusto ipsam quasi, ipsa laudantium ex rem doloremque. Culpa, temporibus assumenda! Architecto dicta assumenda itaque nam ab.
-				</p>
-				<p class="paragraph">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit asperiores porro voluptates. Iusto ipsam quasi, ipsa laudantium ex rem doloremque. Culpa, temporibus assumenda! Architecto dicta assumenda itaque nam ab.
-				</p>
-				<p class="paragraph">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit asperiores porro voluptates. Iusto ipsam quasi, ipsa laudantium ex rem doloremque. Culpa, temporibus assumenda! Architecto dicta assumenda itaque nam ab.
-				</p>
-				<footer>
-					<img src="images/profilowe.jpg" alt="Zdjęcie autora" class="image"/>
-					Autorem artykułu jest Lorem Ipsum.
+    <main id="top" class="main">
+		<header class="main__header">
+			<h1>Jak stworzyć prawidłowego HTMLa?</h1>
+		</header>
+		<article class="htmlCreation">
+			<h2 class="htmlCreation__header">Pierwsze kroki</h2>
+			<p class="htmlCreation__paragraph">
+				<h3 class="htmlCreation__thirdHeader">
+					Struktura strony
+				</h3>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit asperiores porro voluptates. Iusto ipsam quasi, ipsa laudantium ex rem doloremque. Culpa, temporibus assumenda! Architecto dicta assumenda itaque nam ab.
+			</p>
+			<p class="htmlCreation__paragraph">
+				<h3 class="htmlCreation__thirdHeader">
+					Struktura strony
+				</h3>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit asperiores porro voluptates. Iusto ipsam quasi, ipsa laudantium ex rem doloremque. Culpa, temporibus assumenda! Architecto dicta assumenda itaque nam ab.
+			</p>
+			<p class="htmlCreation__paragraph">
+				<h3 class="htmlCreation__thirdHeader">
+					Struktura strony
+				</h3>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit asperiores porro voluptates. Iusto ipsam quasi, ipsa laudantium ex rem doloremque. Culpa, temporibus assumenda! Architecto dicta assumenda itaque nam ab.
+			</p>
+			<footer>
+				<img src="images/profilowe.jpg" alt="Zdjęcie autora" class="footer__image"/>
+				Autorem artykułu jest Lorem Ipsum.
 				</footer>
 			</article>
-		</main>
+	</main>
 
-		<footer>
-				Strona domowa Mateusz Leszkiewicza. Wszystkie treścisą efektem uczestnictwa w kursie WTF - co ten frontend?
-		</footer>
+	<footer>
+		Strona domowa Mateusz Leszkiewicza. Wszystkie treścisą efektem uczestnictwa w kursie WTF - co ten frontend?
+		<a href="#top" class="footer__top">Na górę</a>
+	</footer>
+
 </body>
+
 </html>

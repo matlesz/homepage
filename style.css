@@ -30,6 +30,7 @@ body {
 	margin: 32px auto;
 	padding-top: 50px;
 }
+
 .about {
 	overflow: hidden;
 }
@@ -81,7 +82,6 @@ body {
 }
 .diary__paragraph {
 	color: rgb(3, 3, 3);
-	padding: 16px;
 	margin: 0 16px 0 20px;
 }
 .diary__image {
@@ -100,6 +100,20 @@ body {
 .diary__link {
 	color: #1A936F;
 }
+.htmlCreation {
+	clear: both;
+}
+.htmlCreation__header {
+	color: #1460aa;
+}
+.htmlCreation__paragraph {
+	color: rgb(3, 3, 3);
+	margin: 0 16px 0 20px;
+}
+.htmlCreation__thirdHeader {
+	color: #0496FF;
+	text-decoration: none;
+}
 
 footer {
 	width: 100%;
@@ -107,6 +121,15 @@ footer {
 	min-width: 500px;
 	overflow: scroll;
 	margin: 32px auto;
+}
+
+.footer__image {
+	width: 100%;
+	max-width: 200px;
+	display: block;
+	float: right;
+	margin: 10px 16px 16px 16px;
+	box-sizing: border-box;
 }
 .footer__top {
 	position: fixed;
