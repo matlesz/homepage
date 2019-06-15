@@ -43,3 +43,10 @@ body {
 	overflow: scroll;
 	margin: 32px auto;
 }
+footer {
+	width: 100%;
+	max-width: 700px;
+	min-width: 500px;
+	overflow: scroll;
+	margin: 32px auto;
+}
