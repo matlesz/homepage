@@ -10,9 +10,17 @@
 </head>
 
 <body>
-	<header class="navigation">
-		<a class="navigation__link" href="index.html">Strona główna</a>
-		<a class="navigation__link" href="podstrona.html">podstrona</a>
+	<header class="site-header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="index.html">Strona główna</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="podstrona.html">podstrona</a>
+                </li>
+            </ul>
+        </nav>
 	</header>	
 	<main id="top" class="main">
 		<header>
@@ -33,6 +41,20 @@
 			</p>
 			<a class="about__link" href="#pamiętniczek">Przejdź do Pamiętniczka</a>
             <p class="about__paragraph about__paragraph--mini about__paragraph--js">Testuję modyfikator.</p>
+            <section class="hobby">
+                <ul class="hobby__list">
+                    <li>Programowanie </li>
+                    <li>Elektronika </li>
+                    <li>Zdrowy tryb życia </li>
+                </ul>
+            </section>
+            <section class="plan">
+                <ol>
+                    <li>Otwórz przeglądarkę </li>
+                    <li>Wpisz co ten frontend.pl</li>
+                    <li>[enter] </li>
+                </ol>
+            </section>
         </section>
         <section id="pamiętniczek" class="diary">
             <h2 class="diary__header">
@@ -86,7 +108,41 @@
                 </p>
             </section>
         </section>
-        
+        <section class="glossary">
+            <dl>
+                <dt>CSS</dt>
+                <dd>Style to co widzisz jak jest ładne albo mniej piekne.</dd>
+                <dt>HTML</dt>
+                <dd>Treść + Szkielet strony</dd>
+                <dt>JavaScript</dt>
+                <dt>ES 6</dt>
+                <dd>Rzeczy których teraz się uczę.</dd>
+            </dl>
+        </section>
+        <section class="data">
+            <table class="table">
+              <caption>Oceny z pierwszego semestru WTF</caption>
+                <thead>
+                    <tr>
+                        <th>Imię nazwisko</th>
+                        <th>Ocena</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Mat Lesz</td>
+                    <td>3</td>
+                    <td>05.08.2019r.</td>
+                  </tr>
+                  <tr>
+                    <td>Jan Kowalski</td>
+                    <td>5</td>
+                    <td>07.08.2019r.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 	</main>
 
 	<footer class="footer">
