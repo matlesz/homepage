@@ -27,11 +27,16 @@ body {
 
 .navigation__list {
 	list-style: none;
-	padding: 0;
+
+	display: flex;
+	flex-flow: row wrap;
+	flex: 1 1 100px;
+	align-content: space-around;
 }
 
 .navigation__item {
 	display: inline;
+	margin-left: 10px;
 }
 .navigation__link {
 	color: #1A936F;
