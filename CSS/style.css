@@ -19,7 +19,8 @@ body {
 	left: 0px;
 	box-sizing: border-box;
 	padding: 10px;
-	background-color: #B9D6F2;;
+	background: rgba(0, 0, 0, 0.5);
+	
 }
 
 .navigation {
@@ -44,7 +45,7 @@ body {
 }
 
 .main__header {
-	color: #78C0E0;
+	color: #0E0E52;
 	margin-bottom: 40px;
 }
 
@@ -72,15 +73,14 @@ body {
 	box-sizing: border-box;
 	top: 0px;
 	left: 0%;
-	z-index: 0;
 }
 
 .about__header {
-	color: #78C0E0;
+	color: #0E0E52;
 }
 
 .about__paragraph {
-	color: rgb(3, 3, 3);
+	color: r#B9D6F2;
 	padding: 16px;
 	margin-bottom: 16px;
 }
@@ -90,6 +90,7 @@ body {
 .about__image {
 	width: 100%;
 	max-width: 150px;
+	max-height: 150px;
 	display: block;
 	float: left;
 	margin: 10px 16px 32px 0;
@@ -104,14 +105,14 @@ body {
 	clear: both;
 }
 .diary__header {
-	color: #1460aa;
+	color: #0E0E52;
 }
 .diary__thirdHeader {
-	color: #0496FF;
+	color: #0E0E52;
 	text-decoration: none;
 }
 .diary__paragraph {
-	color: rgb(3, 3, 3);
+	color: r#B9D6F2;
 	margin: 0 16px 0 20px;
 }
 .diary__image {
@@ -123,7 +124,7 @@ body {
 	box-sizing: border-box;
 }
 .diary__list {
-	color: rgb(3, 3, 3);
+	color: r#B9D6F2;
 	padding: 16px;
 	margin: 0 16px 0 20px;
 }
@@ -137,11 +138,11 @@ body {
 	color: #1460aa;
 }
 .htmlCreation__paragraph {
-	color: rgb(3, 3, 3);
+	color: r#B9D6F2;
 	margin: 0 16px 0 20px;
 }
 .htmlCreation__thirdHeader {
-	color: #0496FF;
+	color: #0E0E52;
 	text-decoration: none;
 }
 
@@ -151,6 +152,9 @@ body {
 	min-width: 500px;
 	overflow: scroll;
 	margin: 32px auto;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 .footer__image {
@@ -167,7 +171,10 @@ body {
 	right: 30px;
 	color: #1A936F;
 	text-decoration: none;
-	background: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 .hobby {
