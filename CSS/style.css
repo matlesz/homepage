@@ -7,8 +7,9 @@ html {
 }
 
 body {
-	background: #fefefe;
-	color: #333;
+	background: rgb(46,50,99);
+	background: linear-gradient(337deg, rgba(46,50,99,1) 41%, rgba(33,118,255,1) 100%);
+	color: #B9D6F2;
 }
 
 .site-header {
@@ -18,20 +19,20 @@ body {
 	left: 0px;
 	box-sizing: border-box;
 	padding: 10px;
-	background: #fff;
+	background-color: #B9D6F2;;
 }
 
 .navigation {
-
+	
 }
 
 .navigation__list {
 	list-style: none;
-
 	display: flex;
 	flex-flow: row wrap;
 	flex: 1 1 100px;
-	align-content: space-around;
+	align-content: center;
+	justify-content: center;
 }
 
 .navigation__item {
@@ -43,7 +44,7 @@ body {
 }
 
 .main__header {
-	color: #00487c;
+	color: #78C0E0;
 	margin-bottom: 40px;
 }
 
@@ -75,22 +76,26 @@ body {
 }
 
 .about__header {
-	color: #1460aa;
+	color: #78C0E0;
 }
 
 .about__paragraph {
 	color: rgb(3, 3, 3);
 	padding: 16px;
+	margin-bottom: 16px;
 }
 .about__paragraph--mini {
 	color: #FF6700;
 }
 .about__image {
 	width: 100%;
-	max-width: 100px;
+	max-width: 150px;
 	display: block;
 	float: left;
-	margin: 10px 16px 16px 0;
+	margin: 10px 16px 32px 0;
+	border-radius: 50%;
+	display: flex;
+	align-self: flex-start;
 }
 .about__link {
 	color: #1A936F;
@@ -171,5 +176,4 @@ body {
 .hobby__list {
 	list-style: none;
 	padding: 0;
-
 }
