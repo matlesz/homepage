@@ -4,8 +4,8 @@ const age = 29;
 console.log(name);
 console.log(age);
 
-console.log(`Nazywam się ${name} i mam ${age} lat🦁`);
-
+//console.log(`Nazywam się ${name} i mam ${age} lat🦁`);
+alert(`Nazywam się ${name} i mam ${age} lat🦁`);
 
 const about = document.querySelector('.about__paragraph--js');
 
