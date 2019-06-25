@@ -32,13 +32,13 @@ body {
 	display: flex;
 	flex-flow: row wrap;
 	flex: 1 1 100px;
-	align-content: center;
+	align-items: center;
 	justify-content: center;
 }
 
 .navigation__item {
-	display: inline;
-	margin-left: 10px;
+	display: block;
+	margin: 0 16px;
 }
 .navigation__link {
 	color: #1A936F;

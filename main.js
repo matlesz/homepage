@@ -5,7 +5,7 @@ console.log(name);
 console.log(age);
 
 //console.log(`Nazywam się ${name} i mam ${age} lat🦁`);
-alert(`Nazywam się ${name} i mam ${age} lat🦁`);
+
 
 const about = document.querySelector('.about__paragraph--js');
 
@@ -58,3 +58,11 @@ console.log(calculate(2));
 const calculateFat = (x) => (x+3)*7;
 
 console.log(calculateFat(2));
+
+const welcome = (name, age) => {
+    console.log(`Nazywam się ${name} i mam ${age} lat🦁`);
+} 
+
+//welcome('mateusz', 29);
+
+welcome(name ,age);
