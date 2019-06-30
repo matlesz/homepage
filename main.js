@@ -66,3 +66,15 @@ const welcome = (name, age) => {
 //welcome('mateusz', 29);
 
 welcome(name ,age);
+
+const button = document.querySelector('.header__button--js');
+console.log(button)
+
+//function handleClick() {
+//    console.log('halo');
+//}
+
+button.addEventListener('click', (e) => {
+    const header = document.querySelector('.main__header--js');
+    header.innerHTML = 'klik, klik';
+});
