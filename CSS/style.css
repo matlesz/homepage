@@ -230,7 +230,7 @@ body {
 	flex-direction: column;
 	display: none;
   }
-  .navigation__list__visible {
+  .navigation__list--visible {
 	display: flex;
   }
 }
