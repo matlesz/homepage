@@ -77,4 +77,17 @@ console.log(button)
 button.addEventListener('click', (e) => {
     const header = document.querySelector('.main__header--js');
     header.innerHTML = 'klik, klik';
+    header.classList.toggle('main__header--red')
+    if (header.classList.contains('main__header--red')) {
+        console.log('jest klasa');
+    } else {
+        console.log('nie ma klasy');
+    }
+});
+
+const navigationSwitcher = document.querySelector('.navigation__switcher--js')
+
+navigationSwitcher.addEventListener('click', (e) => {
+    const navigationList = document.querySelector('.navigation__list--js');
+    navigationList.classList.toggle('navigation__list--visible');
 });
