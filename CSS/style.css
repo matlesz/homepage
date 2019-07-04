@@ -68,6 +68,15 @@ body {
 	grid-template-columns: 200px 1fr;
 }
 
+@media (max-width: 640px) {
+	.main{
+		grid-template-areas: "header" 
+		"content" 
+		"about";
+		grid-template-columns: 1fr;
+	}
+}
+
 .about {
 	grid-area: about;
 }
