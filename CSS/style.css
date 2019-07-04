@@ -22,6 +22,7 @@ body {
 	padding: 10px;
 	background: rgba(0, 0, 0, 0.5);
 	z-index: 10;
+	grid-area: header;
 }
 
 .navigation {
@@ -48,6 +49,7 @@ body {
 .main__header {
 	color: #0E0E52;
 	margin-bottom: 40px;
+	grid-area: header;
 }
 
 .main__header--red {
@@ -55,16 +57,19 @@ body {
 }
 
 .main {
+	display: grid;
 	width: 100%;
 	max-width: 700px;
 	min-width: 500px;
-	
 	margin: 32px auto;
 	padding-top: 50px;
+	grid-template-areas: "header header" 
+	"about content";
+	grid-template-columns: 200px 1fr;
 }
 
 .about {
-	
+	grid-area: about;
 }
 
 .about__box {
@@ -105,6 +110,9 @@ body {
 }
 .about__link {
 	color: #1A936F;
+}
+.content {
+	grid-area: content;
 }
 .diary {
 	clear: both;
