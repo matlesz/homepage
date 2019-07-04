@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../CSS/style_forms.css">
+  <link rel="stylesheet" href="../CSS/normalize.css">
+</head>
+<body>
+  <form action="http://dev.cotenfrontend.pl" method="post" calss="form">
+    <p>
+      <label for="name">Your name:</label>
+      <input required name="name" placeholder="please enter your name" id="name">
+<!-- pattern="[]" wyrażenie regularne pobieramy ze strony http://html5pattern.com/Names-->
+    </p>
+    <p>
+      <label for="surname">Your surname:</label>
+      <input name="surname" value="lesz" id="name">
+    </p>
+    <p>
+     <label for="age">Age:</label>
+     <input type="number" name="myage" id="age">
+    </p>
+    <p>
+      <label for="telephoneNumber">phone number:</label>
+      <input type="tel" name="mytelphone" id="telehoneNumber">
+    </p>
+    <p>
+      <label for="email">email address:</label>
+      <input type="email" name="myemail" id="email">
+    </p>
+    <fieldset>
+      <legend>My input</legend>
+      <p>
+        <label for="radio1">Option 1</label>
+        <input type="radio"  name="radio" id="radio1">
+          
+      </p>
+      <p>
+        <label for="radio2">Option 2</label>
+        <input type="radio" checked value="option 2" name="radio" id="radio2">
+      </p>
+      <p>
+        <label for="radio3">Option 3</label>
+          <input type="radio"  name="radio" id="radio3">
+      </p>
+      <p>
+        <label for="radio4">Option 4</label>
+          <input type="radio"  name="radio" id="radio4">
+      </p>
+    </fieldset>
+
+    <p>
+      <label for="mycheckbox">check 1</label>
+      <input type="checkbox"  name="mycheckbox" id="mycheckbox">
+    </p>
+    <p>
+    <label for="mycheckbox2">check 2</label>
+    <input type="checkbox"  name="mycheckbox" id="mycheckbox2">
+    </p>
+    <p>
+      <label for="password ">password</label><br>
+      <input required type="password"  name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" id="password">
+    </p>
+    <p>
+      <label for="file ">your avatar</label><br>
+      <input type="file"  name="file" id="file">
+    </p>
+    <p>
+      <label for="range">range</label><br>
+      <input type="range" min="0" max ="100" step="10" value="70" name="range" id="range">
+    </p>
+    <p>
+      <label for="select">Please select the answer</label>
+      <select name="select" id="select">
+        <option value="user selected yes">yes</option>
+        <option value="user selected no">no</option>
+        <option value="user selected maybe">maybe</option>
+      </select>
+    </p>
+    <p>
+      <label for="select">Please describe your day</label><br>
+      <textarea id="textarea" name="textarea">
+        lorem ipsum
+      </textarea>
+    </p>
+    <input type="submit" value="send the form">
+  </form>
+    
+</body>
+</html>
