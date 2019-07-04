@@ -45,6 +45,13 @@ body {
 .navigation__link {
 	color: #1A936F;
 }
+.navigation__link:visited {
+	color: #ccc;
+}
+.navigation__link:hover {
+	color: hotpink;
+}
+
 
 .main__header {
 	color: #0E0E52;
@@ -129,17 +136,48 @@ body {
 .diary__header {
 	color: #0E0E52;
 }
+.day {
+
+}
+.day:first-child {
+	background: yellow;
+}
+.day:last-child {
+	background: yellow;
+}
+.day:not(.day__special) {
+	background: violet;
+}
 .diary__thirdHeader {
 	color: #0E0E52;
 	text-decoration: none;
+}
+.diary__thirdHeader::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: yellow; 
+	margin-right: 5px;
+}
+.diary__thirdHeader::after {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: red; 
+	margin-left: 5px;
 }
 .diary__paragraph {
 	color: r#B9D6F2;
 	margin: 0 16px 0 20px;
 }
+
 .diary__image {
 	width: 100%;
-	max-width: 200px;
+	max-width: 300px;
 	display: block;
 	float: right;
 	margin: 10px 16px 16px 16px;
